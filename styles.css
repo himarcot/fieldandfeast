@@ -245,5 +245,20 @@ footer{
 
 /* MEDIA QUERY (xl) */
 @media (min-width: 1200px){
+    h1{
+        font-size: 5rem;
+    }
 
+    header img{
+        width: 220px;
+    }
+
+    main{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .gallery-grid{
+        grid-template-columns: repeat(5, 1fr);
+    }
 }

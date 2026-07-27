@@ -64,6 +64,149 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+body{
+    font-family: "Playfair Display", serif;
+}
+
+hr{
+    border: none;
+    border-top: 3px solid var(--champagne-gold);
+    width: 80%;
+    margin: 30px auto;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h2{
+    font-size: 2rem;
+    padding: 15px;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+header{
+    background-color: var(--midnight-blue);
+    color: white;
+}
+
+header img{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 160px;
+}
+
+header p{
+    text-align: center;
+    font-style: italic;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+nav{
+    background-color:#E5C185;
+    color:#1F2A44;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav a{
+    color:#1F2A44;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.welcome, .offerings, .gallery{
+    padding: 40px;
+}
+
+.offerings-grid{
+    display: grid;
+    gap: 20px;
+}
+
+.offering{
+    background-color: #76885B;
+    color: white;
+    border-radius: 20px;
+}
+
+.offering{
+    padding: 30px;
+    line-height: 1.5;
+}
+
+.offering h3{
+    font-weight: bold;
+}
+
+.gallery{
+    display: grid;
+    gap: 20px;
+}
+
+.gallery-card {
+    background-color: var(--soft-white);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery-card p {
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.gallery-button{
+    color:#F8F4EC;
+    background-color:#76885B;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color:#1F2A44;
+    color:#F8F4EC;
+    text-align: center;
+    padding: 75px;
+    font-size: 1.2rem;
+}
+
 /* MEDIA QUERY (medium) */
+@media (min-width: 600px){
+
+}
+
+
 /* MEDIA QUERY (large) */
+@media (min-width: 900px){
+
+}
+
+
 /* MEDIA QUERY (xl) */
+@media (min-width: 1200px){
+
+}

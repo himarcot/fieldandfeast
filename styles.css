@@ -76,7 +76,7 @@ hr{
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
 }
@@ -196,7 +196,27 @@ footer{
 
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px){
+    h1{
+        font-size: 4rem;
+    }
 
+    header img{
+        width: 180px;
+    }
+
+    nav ul{
+        gap: 5rem;
+    }
+
+    .offerings-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 }
 
 

@@ -222,7 +222,24 @@ footer{
 
 /* MEDIA QUERY (large) */
 @media (min-width: 900px){
+    h1{
+        font-size: 4.5rem;
+    }
 
+    header img{
+        width: 200px;
+    }
+
+    .welcome,
+    .offerings,
+    .gallery{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .gallery-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 

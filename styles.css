@@ -71,8 +71,8 @@ body{
 hr{
     border: none;
     border-top: 3px solid var(--champagne-gold);
-    width: 80%;
-    margin: 30px auto;
+    width: 90%;
+    margin-top: 40px;
 }
 
 h1{
@@ -107,7 +107,7 @@ header p{
     text-align: center;
     font-style: italic;
     margin: 20px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 nav{
@@ -216,6 +216,10 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
+    }
+
+    .monthly{
+        grid-column: 1/-1;
     }
 }
 
